@@ -1,0 +1,13 @@
+GET http://127.0.0.1:3000/api/producto
+
+### guardar producto
+POST  http://127.0.0.1:3000/api/producto
+Content-Type: application/json
+
+{
+    "nombre": "MONITOR CARCA ASUS",
+    "precio": 3569.98,
+    "stock": 16,
+    "descripcion": "Monitor ASUS",
+    "imagen": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07062878.png"
+}
