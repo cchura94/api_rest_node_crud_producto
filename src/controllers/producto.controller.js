@@ -16,15 +16,15 @@ async function funGuardar(req, res){
 }
 
 function funMostrar(req, res){
-    
+    const id = req.params.id;
 }
 
 function funModificar(req, res){
-    
+    const id = req.params.id;
 }
 
 function funEliminar(req, res){
-    
+    const id = req.params.id;
 }
 
 module.exports = {
